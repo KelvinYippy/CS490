@@ -30,9 +30,9 @@ def download_and_clip_from_csv(csv_path: str, with_sound: bool):
             except VideoPrivate:
                 add_to_file(error_log_file, f"{link} |  Reason: Video Private")
             
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/education0.csv", False)
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/education1.csv", False)
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/sports0.csv", False)
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/sports1.csv", False)
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/politics0.csv", False)
-# download_and_clip_from_csv("/Users/kelvinyip7/Desktop/Code/CS490/src/politics1.csv", False)
+download_and_clip_from_csv("./education0.csv", False)
+download_and_clip_from_csv("./education1.csv", False)
+download_and_clip_from_csv("./sports0.csv", False)
+download_and_clip_from_csv("./sports1.csv", False)
+download_and_clip_from_csv("./politics0.csv", False)
+download_and_clip_from_csv("./politics1.csv", False)
