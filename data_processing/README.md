@@ -48,9 +48,9 @@ If that still does not work, here is an exhaustive list of packages needed:
 
 Go to the data folder. 
 
-- In the clips folder, add three folders: education, politics, and sports. Then, add two folders in each of these folders, labelled as "0" and "1" (without the quotation mark).
+- In the clips folder, add three folders: "education", "politics", and "sports". Then, add two folders in each of these folders, labelled as "0" and "1" (without the quotation mark).
 
-- In the frames folder, add two folders: "0" and "1".
+- In the frames folder, add two folders: "0" and "1" (without the quotation mark).
 
 ## Step Three [Get Clips]
 
