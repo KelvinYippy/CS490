@@ -55,4 +55,4 @@ to begin the clip_csv process. You may notice 6 CSV files in the folder: educati
 
 ## Step Four [Get Frames]
 
-Go to data_loader.ipynb. You may be prompted to run the kernel to begin running the jupyternotebook. Click on PythonEnvironments, then click on your virtual environment. You may be required to install the ipykernel package.
+Go to data_loader.ipynb. You may be prompted to run the kernel to begin running the jupyternotebook. Click on PythonEnvironments, then click on your virtual environment. You may be required to install the ipykernel package. After that, click on the run all option at the top to run all the cells in data_loader.ipynb. This should result in the frames folder being populated with folders of clip frames, and the scores.txt and paths.txt text files being updated.
