@@ -1,12 +1,12 @@
-# /data/clips/education/0
-# /data/clips/education/1
-# /data/clips/politics/0
-# /data/clips/politics/1
-# /data/clips/sports/0
-# /data/clips/sports/1
-# /data/files/logs
-# /data/files/models
-# /data/files/tflogs
-# /data/frames/0
-# /data/frames/1
-# /data/videos
+/data/clips/education/0/
+/data/clips/education/1/
+/data/clips/politics/0/
+/data/clips/politics/1/
+/data/clips/sports/0/
+/data/clips/sports/1/
+/data/files/logs
+/data/files/models
+/data/files/tflogs
+/data/frames/0/
+/data/frames/1/
+/data/videos/
