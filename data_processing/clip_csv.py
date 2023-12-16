@@ -1,9 +1,10 @@
 import csv
-from constants import VIDEOS_PATH, MAIN_PATH
+from constants import MAIN_PATH
 from utils import get_youtube_video_id, convert_to_seconds, add_to_file
 from functions.download import download_video_no_audio, download_video_with_audio
 from functions.clip import extract_clip
-from os.path import isfile, join
+from os.path import isfile, join, dirname
+from os import getcwd
 from pytube.exceptions import AgeRestrictedError, VideoPrivate
 from datetime import datetime
 
@@ -17,7 +18,7 @@ def download_and_clip_from_csv(csv_path: str, with_sound: bool):
         clips = csv.reader(csvfile, delimiter=',', quotechar='|')
         for clip in clips:
             link, start, end = clip
-            file_path = f"{VIDEOS_PATH}/{get_youtube_video_id(link)}.mp4"
+            file_path = f"{dirname(getcwd())}/data/videos/{get_youtube_video_id(link)}.mp4"
             try:
                 if not isfile(file_path):
                     if with_sound:

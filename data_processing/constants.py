@@ -1,6 +1,6 @@
 from os.path import join
 
-MAIN_PATH = "./data"
+MAIN_PATH = "../data"
 FRAMES_PATH = join(MAIN_PATH, "frames")
 CLIPS_PATH = join(MAIN_PATH, "clips")
 VIDEOS_PATH = join(MAIN_PATH, "videos")
