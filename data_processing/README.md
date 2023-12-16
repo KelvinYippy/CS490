@@ -44,6 +44,14 @@ If that still does not work, here is an exhaustive list of packages needed:
 - csv
 - datetime
 
+## Step Two.Five [File Structure] - MUST DO OR ELSE WILL NOT WORK
+
+Go to the data folder. 
+
+- In the clips folder, add three folders: education, politics, and sports. Then, add two folders in each of these folders, labelled as "0" and "1" (without the quotation mark).
+
+- In the frames folder, add two folders: "0" and "1".
+
 ## Step Three [Get Clips]
 
 In the terminal, you may run:
